@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity, media-feature-range-notation */
 @import url("https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic");
 
 /**
@@ -398,7 +399,7 @@ p {
   height: auto;
 }
 
-@media only screen and (width <= 919px) {
+@media only screen and (max-width: 919px) {
   .rental.detailed .image,
   .rental.detailed .image.large {
     margin: 30px 25px 25px;
@@ -472,3 +473,5 @@ p {
   padding: 0;
   border: 0;
 }
+
+/* stylelint-enable no-descending-specificity, media-feature-range-notation */
